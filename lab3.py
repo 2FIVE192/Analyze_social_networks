@@ -1,7 +1,3 @@
-import statistics
-import networkx as nx
-import math
-import matplotlib.pyplot as plt
 # модель Эрдёша–Реньи G(n, p).
 
 # Дано: n = 25, p = 0.45.
@@ -12,6 +8,11 @@ import matplotlib.pyplot as plt
 #         <k> = p * (n - 1)          -- средняя степень
 #         <m> = p * n * (n - 1) / 2  -- среднее число рёбер
 #     Для n = 25, p = 0.45:  <k> = 0.45 * 24 = 10.8,  <m> = 135.
+import statistics
+import networkx as nx
+import math
+import matplotlib.pyplot as plt
+
 N = 25
 P = 0.45
 SEED = 42
